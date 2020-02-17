@@ -2,7 +2,7 @@
 
 ## Introduction
 
-VPC is a virtual data center in the cloud, letting you provision a logically isolated section of AWS where you can launch AWS resources in a virtual network that you define. You can create public-facing subnet for your web servers that has access to the Internet, and place your backend systems in private-facing subnet with no Internet access. Additionally, you can create a Hardware VPN connection between your corporate data center and your VPC and leverage the AWS cloud as an extension of your corporate data center.
+VPC is a virtual data center in the cloud, letting you provision a logically isolated section of AWS where you can launch AWS resources in a private area. You can easily configure the network configuration for your AWS VPC. For example, you can create a public facing subnet for your webservers that has access to the internet, and place your backend systems such as database and applications in a private facing subnet with no internet access. You can leverage multiple layers of security including Security Groups, Network ACLs to help access AWS resources in each of the subnet. Additionally, you can create a Hardware VPN connection between your corporate data center and your VPC and leverage the AWS cloud as an extension of your corporate data center. 
 
 ### What is VPC?
 
